@@ -1,0 +1,34 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #000000;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: #0320e0;
+	/* margin-bottom: 2rem; */
+}
+
+#colorbox {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1rem;
+	background-color: #525ce7;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+#colorbox button{
+	
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	cursor: pointer;
+}
